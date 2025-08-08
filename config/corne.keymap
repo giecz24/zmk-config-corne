@@ -185,10 +185,10 @@
             // | GUI | CTRL | SHFT | LWR | SPC |   | ENT | RSE  | BKSP | ALT | ESC |
 
             bindings = <
-&kp CAPS    &kp Q        &kp W           &kp E             &kp R               &kp T    &kp Y      &kp U      &kp I          &kp O    &kp P         &kp SEMICOLON
-&kp TAB     &hm LCTRL A  &hm LEFT_ALT S  &hm LEFT_SHIFT D  &hm LEFT_COMMAND F  &kp G    &kp H      &kp J      &kp K          &kp L    &kp COLON     &kp SQT
-&kp ESCAPE  &kp Z        &kp X           &kp C             &kp V               &kp B    &kp N      &kp M      &kp COMMA      &kp DOT  &kp QUESTION  &kp DOUBLE_QUOTES
-                                         &kp LGUI          &mo 1               &mo 2    &kp ENTER  &kp SPACE  &kp BACKSPACE
+&kp CAPS    &kp Q        &kp W           &kp E             &kp R               &kp T    &kp Y      &kp U       &kp I          &kp O            &kp P            &kp SEMICOLON
+&kp TAB     &hm LCTRL A  &hm LEFT_ALT S  &hm LEFT_SHIFT D  &hm LEFT_COMMAND F  &kp G    &kp H      &hm RGUI J  &hm RSHFT K    &hm RIGHT_ALT L  &hm RCTRL COLON  &kp SQT
+&kp ESCAPE  &kp Z        &kp X           &kp C             &kp V               &kp B    &kp N      &kp M       &kp COMMA      &kp DOT          &kp QUESTION     &kp DOUBLE_QUOTES
+                                         &kp LGUI          &mo 1               &mo 2    &kp ENTER  &kp SPACE   &kp BACKSPACE
             >;
         };
 
@@ -219,10 +219,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp F1      &kp F2             &kp F3        &kp F4      &kp F5      &kp F6              &kp EQUAL   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &none                 &kp SCROLLLOCK
-&kp F7      &kp F8             &kp F9        &kp F10     &kp F11     &kp F12             &kp DOLLAR  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PERCENT           &kp PRINTSCREEN
-&kp K_MUTE  &kp K_VOLUME_DOWN  &kp C_VOL_UP  &kp K_PREV  &kp K_NEXT  &kp K_PLAY_PAUSE    &kp UNDER   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LS(LG(NUMBER_4))  &kp KP_NUMLOCK
-                                             &none       &trans      &trans              &kp RET     &kp NUMBER_0  &kp MINUS
+&kp F1      &kp F2             &kp F3           &kp F4              &kp F5        &kp F6              &kp EQUAL   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &none                 &kp SCROLLLOCK
+&kp F7      &hm LCTRL F8       &hm LEFT_ALT F9  &hm LEFT_SHIFT F10  &hm LCMD F11  &kp F12             &kp DOLLAR  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PERCENT           &kp PRINTSCREEN
+&kp K_MUTE  &kp K_VOLUME_DOWN  &kp C_VOL_UP     &kp K_PREV          &kp K_NEXT    &kp K_PLAY_PAUSE    &kp UNDER   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LS(LG(NUMBER_4))  &kp KP_NUMLOCK
+                                                &none               &trans        &trans              &kp RET     &kp NUMBER_0  &kp MINUS
             >;
         };
 
