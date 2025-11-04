@@ -185,7 +185,7 @@
             // | GUI | CTRL | SHFT | LWR | SPC |   | ENT | RSE  | BKSP | ALT | ESC |
 
             bindings = <
-&kp CAPS    &kp Q        &kp W           &kp E             &kp R               &kp T    &kp Y      &kp U       &kp I        &kp O            &kp P            &kp EQUAL
+&kp CAPS    &kp Q        &kp W           &kp E             &kp R               &kp T    &kp Y      &kp U       &kp I        &kp O            &kp P            &kp MINUS
 &kp TAB     &hm LCTRL A  &hm LEFT_ALT S  &hm LEFT_SHIFT D  &hm LEFT_COMMAND F  &kp G    &kp H      &hm RGUI J  &hm RSHFT K  &hm RIGHT_ALT L  &hm RCTRL COLON  &kp SQT
 &kp ESCAPE  &kp Z        &kp X           &kp C             &kp V               &kp B    &kp N      &kp M       &kp COMMA    &kp PERIOD       &kp SLASH        &kp NON_US_BACKSLASH
                                          &none             &mo 1               &mo 2    &kp ENTER  &kp SPACE   &none
@@ -203,7 +203,7 @@
 
             bindings = <
 &bt BT_SEL 0  &bt BT_SEL 3  &kp HOME  &kp UP_ARROW    &kp PG_UP      &none     &none       &kp GRAVE      &kp AT_SIGN                   &kp ASTERISK                 &kp AMPERSAND     &none
-&bt BT_SEL 1  &bt BT_SEL 4  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT      &none     &none       &hm RGUI HASH  &hm RIGHT_SHIFT LEFT_BRACKET  &hm RIGHT_ALT RIGHT_BRACKET  &hm LCTRL DOLLAR  &none
+&bt BT_SEL 1  &bt BT_SEL 4  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT      &none     &kp EQUAL   &hm RGUI HASH  &hm RIGHT_SHIFT LEFT_BRACKET  &hm RIGHT_ALT RIGHT_BRACKET  &hm LCTRL DOLLAR  &none
 &bt BT_SEL 2  &bt BT_CLR    &kp END   &kp INSERT      &kp PAGE_DOWN  &none     &none       &none          &none                         &none                        &none             &none
                                       &bt BT_CLR_ALL  &trans         &trans    &kp DELETE  &kp BACKSPACE  &none
             >;
