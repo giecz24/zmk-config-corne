@@ -202,9 +202,9 @@
             // | GUI | CTRL | SHFT | LWR | SPC |   | ENT | RSE  | BKSP | ALT | ESC |
 
             bindings = <
-&bt BT_SEL 0  &bt BT_SEL 3  &kp HOME  &kp UP_ARROW    &kp PG_UP      &none     &none       &kp GRAVE      &kp AT_SIGN                   &kp ASTERISK                 &kp AMPERSAND     &none
-&bt BT_SEL 1  &bt BT_SEL 4  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT      &none     &kp EQUAL   &hm RGUI HASH  &hm RIGHT_SHIFT LEFT_BRACKET  &hm RIGHT_ALT RIGHT_BRACKET  &hm LCTRL DOLLAR  &none
-&bt BT_SEL 2  &bt BT_CLR    &kp END   &kp INSERT      &kp PAGE_DOWN  &none     &none       &none          &none                         &none                        &none             &none
+&bt BT_SEL 0  &bt BT_SEL 3  &kp HOME  &kp UP_ARROW    &kp PG_UP      &none     &kp GRAVE   &kp DOLLAR     &kp AT_SIGN                   &kp ASTERISK                 &kp AMPERSAND          &none
+&bt BT_SEL 1  &bt BT_SEL 4  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT      &none     &kp EQUAL   &hm RGUI HASH  &hm RIGHT_SHIFT LEFT_BRACKET  &hm RIGHT_ALT RIGHT_BRACKET  &hm LCTRL EXCLAMATION  &kp CARET
+&bt BT_SEL 2  &bt BT_CLR    &kp END   &kp INSERT      &kp PAGE_DOWN  &none     &none       &none          &none                         &none                        &none                  &none
                                       &bt BT_CLR_ALL  &trans         &trans    &kp DELETE  &kp BACKSPACE  &none
             >;
         };
